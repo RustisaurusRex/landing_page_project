@@ -36,10 +36,14 @@ padding-bottom: 52px;
 .herotext {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 400px;
 }
 
 h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
