@@ -19,7 +19,7 @@ font-size: 18px;
 display: flex;
 justify-content: space-between;
 align-content: center;
-padding-bottom: 8px;
+padding: 8px 62px;
 }
 
 .header-links {
@@ -32,12 +32,16 @@ padding-bottom: 8px;
 }
 
 button {
-    padding: 8px;
+    padding: 8px 30px;
     margin: 4px;
     background-color: hsl(217, 91%, 59%);
-    max-width: 100px;
-    border-radius: 25px;
+    width: fit-content;
+    min-width: fit-content;
+    border-radius: 6px;
     color: #e5e7eb;
+    border: 0;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .herocontent {
@@ -81,6 +85,7 @@ font-size: 36px;
 font-weight: 800;
 color:#1f2937;
 margin: 30px;
+padding-bottom: 24px;
 }
 
 .itemcontainer {
@@ -101,6 +106,7 @@ flex-wrap: wrap;
     border-color: #1f2937;
     border-style: solid;
     margin-bottom: 8px;
+    max-height: 200px;
 }
 
 .quotesection {
@@ -124,7 +130,7 @@ flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: stretch;
-    min-height: 300px;
+    flex-basis: 250px;
     color: #e5e7eb;
 }
 
@@ -132,13 +138,28 @@ flex-wrap: wrap;
     display: flex;
     background-color: hsl(217, 91%, 59%);
     border-radius: 8px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin: 52px;
     flex: 1;
+    margin: 100px 100px;
+    padding: 52px;
+    gap: 50px
 }
 
+.ctabutton {
+    border:2px #f9faf8;
+    border-style: solid;
+}
 .footer {
     padding: 52px;
     text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #f9faf8;
+    padding: 0;
+    margin-bottom: 2px;
+    letter-spacing: 1px;
 }
